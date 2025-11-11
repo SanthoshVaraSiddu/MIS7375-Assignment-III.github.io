@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Program name: thankyou.html
+Author: Your Name Here
+Date created: 09/14/2025
+Description: Thank you page displayed after successful form submission.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thank You - Golden Pulse Medical</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="banner">
+  <img src="logo.png" alt="Company Logo" id="banner-logo" style="vertical-align:middle; width:50px; height:50px;">
+  <span id="company-name">Golden Pulse Medical</span>
+  <span id="banner-date">
+    Today is: <script>
+      var now = new Date();
+      var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+      var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+      document.write(days[now.getDay()] + ", " + months[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());
+    </script>
+  </span>
+</div>
+
+<h1>Thank You for Your Submission!</h1>
+<p>We appreciate you registering with Golden Pulse Medical. We will process your information shortly.</p>
+
+<div id="footer">
+  <span>Golden Pulse Medical</span> &nbsp;
+  <button onclick="location.href='mailto:contact@goldenpulse.com';">Contact Us</button> &nbsp;
+  <a href="https://facebook.com" target="_blank">FB</a> &nbsp;
+  <a href="https://twitter.com" target="_blank">Twitter</a> &nbsp;
+  <span>Dover Park Ln, Katy, TX, 77045</span>
+</div>
+
+</body>
+</html>
