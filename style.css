@@ -1,11 +1,4 @@
-/* 
-Program name: style.css
-Author: Your Name Here
-Date created: 09/14/2025
-Date last edited: 11/01/2025
-Version: 3.0
-Description: Stylesheet for Patient Registration Form - Homework 3 with real-time validation
-*/
+
 
 body {
   font-family: Arial, sans-serif;
@@ -367,4 +360,5 @@ button[type="submit"]:disabled:hover {
   .error-message {
     font-size: 11px;
   }
+
 }
