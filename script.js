@@ -1,11 +1,4 @@
-/*
-Program name: script.js
-Author: Your Name Here
-Date created: 10/20/2025
-Date last edited: 11/01/2025
-Version: 3.0
-Description: External JavaScript for Patient Registration Form - Homework 3 with real-time validation
-*/
+
 
 // Global error tracking
 let formErrors = {};
@@ -890,4 +883,5 @@ window.addEventListener("DOMContentLoaded", function() {
     if (form) {
         form.addEventListener("submit", validateFormOnSubmit);
     }
+
 });
